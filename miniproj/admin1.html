@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="a.css">
+  <title>Document</title>
+  <style>
+        *{
+        margin-top: 0;
+        margin:auto;
+        padding:80;
+        }
+        body{
+        background-image: url(tt.jpg);
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 300px;
+        background-size: cover;
+        font-family:sans-serif;
+        margin-top:0px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="Home-page.html">Home</a></li>
+            <li><a href="About-Us.html" target="_blank">About Us</a></li>
+            <li><a href="Contact-Us.html" target="_blank">Contact Us</a></li>
+            <li>
+                <!-- <select>
+                    <option> -->
+                        <a href="login.html" target="_blank">Login</a>
+                            <!-- LOGIN
+                    </option>
+                    <option value="user.html">
+                        <a href="user.html" target="_blank">USER</a>
+                   </option>
+                    <option value="admin.html">
+                        <a href="admin.html" target="_blank">ADMIN</a>
+                    </option>    
+                </select> -->
+
+            </li>
+        </ul>
+    </nav>
+</header>
+  <h2>ADMIN</h2><br>    
+    <div class="login">    
+    <form id="admin" method="get" action="login.php">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="button" name="log" id="log" value="Log In Here">       
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        Forgot <a href="#">Password</a>    
+    </form>     
+</div>
+</body>
+</html>

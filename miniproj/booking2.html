@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="Home-page.html">Home</a></li>
+                <li><a href="About-Us.html" target="_blank">About Us</a></li>
+                <li><a href="Contact-Us.html" target="_blank">Contact Us</a></li>
+                <li><a href="login.html" target="_blank">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class ="Booking"><h3> Booking </h3></div>
+    <form method="POST" action="Book.php">
+        
+            <table width="30%" border="0" cellspacing="10">
+            <tr>
+                <td>
+                    Member3_details:
+                </td>
+            </tr><tr>
+                <td>
+                    First Name
+                </td>
+                <td>
+                    <input type="text" placeholder="First Name" name="firstname">
+                </tr><tr>
+                </td>
+                <td>
+                    Last Name:
+                </td>    
+                <td>
+                    <input type="text" placeholder="Last Name" name="lastname">
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    DOB :
+                </td>
+                <td>
+                    <input type="date" id="start-date" name="DOB" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender :
+                </td>
+                <td>
+                    <input type="radio"  name="gender" value="m">Male
+                    <input type="radio"  name="gender" value="f">Female
+                </td>
+            </tr>
+            <tr>
+                <td> Username: </td>
+                <td><input type ="text" placeholder="Username" name="username"></td>
+            </tr>
+            <tr>
+                <td>
+                    Source:
+                </td>
+                <td>
+                    <input type="text" placeholder="FROM" name="source">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Destination:
+                </td>
+                <td>
+                    <input type="text" placeholder="Destination" name="destination">
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    Email :
+                </td>
+                <td>
+                    <input type="mail" placeholder="Email" name="Email">
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    Phone no :
+                </td>
+                <td>
+                    <select name="phonecode" id="ph"> 
+                        <option>+91</option>
+                        <option>+92</option>
+                        <option>+86</option>
+                        <option>+94</option>
+                        <option>+44</option>
+                    </select>
+                    <input type="text" placeholder="************" name="Phone">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="submit" name="">
+                </td>
+            </tr>
+            <tr><td><a href="booking1.html">Next</a></td>
+            <td><a href="book1.php">Book</a></td></tr>
+        </table>
+    </form>  
+</body>
+</html>

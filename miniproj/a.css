@@ -1,0 +1,34 @@
+.navbar {
+    background-color: rgb(147, 148, 113);
+    border-radius: 30px;
+    font-family: 'Bree Serif', serif;
+
+}
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 95px;
+    /* margin-left: auto; */
+
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+    color: rgb(246, 184, 184)
+}
+
+.navbar input {
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 15px;
+    width: 129px;
+}
